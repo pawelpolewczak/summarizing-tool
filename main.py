@@ -24,4 +24,7 @@ def save_to_file(path, summary):
 
 if __name__ == '__main__':
     dotenv.load_dotenv()
-    process_document("long_doc.md")
+    # Get the variable passed in from the command line
+    import sys
+    path = sys.argv[1]
+    process_document(path)
