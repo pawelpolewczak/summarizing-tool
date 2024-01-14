@@ -43,6 +43,7 @@ class TextSummarizer:
         Given the set of notes on a specific topic, could you please review and consolidate them into a single, well-structured document? 
         Feel free to group related bullet points into comprehensive sentences, ensuring to maintain a clear flow. 
         Please format final document in Markdown language and make sure it is in English.
+        You should use formatting for better redability like bold, italic, underline or making list with bullet points.
         ###Document
         {docs}
         """
